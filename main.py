@@ -20,7 +20,7 @@ v = lower_case_string.count("v")
 e = lower_case_string.count("v")
 
 love = l + o + v + e
-love_score = int(str(priyanka) + str(love))
+love_score = str(priyanka) + str(love)
 print(love_score)
 if (love_score < 10) or (love_score > 90):
   print(f"Your score is {love_score},you are like coke and mentos")
